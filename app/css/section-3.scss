@@ -1,0 +1,45 @@
+
+.section-3-services {
+	padding: $padding-140;
+
+	.nav-item h5 {
+		font-size: 14px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+
+	.nav-item .icon {
+		font-size: 48px;
+		margin-bottom: 35px;
+	}
+
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.section-3-services {
+
+	.nav-link {
+		color: #888888;
+		padding: $padding-0;
+	}
+
+	.nav-link.active {
+		color: $Color111111;
+	}
+
+	.nav-tabs {
+		margin-bottom: 80px;
+	}
+
+	.title {
+		margin-bottom: 125px;
+	}
+
+}
+
+.section-3-services {
+    padding: 80px 0;
+  }

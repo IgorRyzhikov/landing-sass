@@ -1,0 +1,65 @@
+.footer {
+	padding: 130px 0 60px;
+	background: #f8f8f8;
+	
+	.footer__logo {
+		margin-bottom: 25px;
+	}
+
+	.footer-social {
+		margin-bottom: 110px;
+	}
+
+	.copy {
+		margin-bottom: 110px;
+		font-size: 15px;
+		color: $Color111111;
+		font-family: $ff_dosis;
+		letter-spacing: 5px;
+	}
+
+	.blockquote-footer {
+		font-family: $ff_opensans;
+		font-size: 11px;
+		color: #999999;
+	}
+
+	.footer-social__link {
+		width: 40px;
+		height: 40px;
+		background-color: transparent;
+		border: 1px solid $Color111111;
+		border-radius: 5px;
+		bottom: 30px;
+		transform: $r135deg;
+		cursor: pointer;
+		display: inline-block;
+		color: $Color111111;
+		font-size: 14px;
+	}
+
+	.footer-social__item {
+		margin: 10px; 
+		list-style: none;
+	  }
+
+	.footer-social__link .fa-facebook,
+	.footer-social__link .fa-twitter,
+	.footer-social__link .fa-behance,
+	.footer-social__link .footersocial4,
+	.footer-social__link .footersocial5 {
+		  -webkit-transform: $r-135deg;
+		  -moz-transform: $r-135deg;
+		  -ms-transform: $r-135deg;
+		  -o-transform: $r-135deg;
+		  transform: $r-135deg;
+	  }  
+}
+
+@media only screen and (max-width : 480px){
+	.section-1 h1 {
+	  font-size: 20px;
+	  letter-spacing: 30px;
+	  text-indent: 30px;
+	}
+}

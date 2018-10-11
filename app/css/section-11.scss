@@ -1,0 +1,118 @@
+.section-11 {
+
+	.form-control {
+		font-size: 12px;
+		font-family: $ff_opensans;
+		letter-spacing: 5px;
+	}
+
+	.btn {
+		background: #323232;
+		color: $Colorffffff;
+		font-size: 10px;
+		border: none;
+		padding: 10px 16px;
+		letter-spacing: 3px;
+		font-family: $ff_opensans;
+	}
+
+}
+
+.section-11 {
+	padding: $padding-140;
+
+
+	.form-control {
+		resize: none;
+	}
+
+	h3 {
+		margin-bottom: $mb-100;
+	}
+
+	.arrow-down {
+		margin-right: 17px;
+		background: $Color111111;
+		color: #f8f8f8;
+	}
+
+	.item-contact__description {
+		margin-bottom: 15px;
+		font-family: $ff_dosis;
+		font-size: 12px;
+		color: #444444;
+		letter-spacing: 5px;
+	  }
+
+	.item-contact__contacts {
+		font-family: $ff_opensans;
+		font-size: 12px;
+		color: #444444;
+	  }
+
+	.arrow-down .fa-map-marker,
+	.arrow-down .fa-phone,
+	.arrow-down .fa-envelope {
+		  -webkit-transform: $r-135deg;
+		  -moz-transform: $r-135deg;
+		  -ms-transform: $r-135deg;
+		  -o-transform: $r-135deg;
+		  transform: $r-135deg;
+	  }
+
+	form .col {
+		max-width: 33%
+	}
+}
+
+.w-65 {
+    width: 68%;
+}
+
+.mw-30 {
+    max-width: 29%;
+}
+
+.section-11 {
+
+	.col>input {
+		margin-bottom: 12px;
+	}
+}
+	
+.section-11__wrap, .wrap__row {
+    width: 65%;
+    margin: auto;
+}
+
+.section-11 {
+
+	.form-control {
+		font-size: 8px;
+    	letter-spacing: 3px;
+		height: 35px;
+		width: $maxWidth;
+		text-transform: uppercase;
+		border-radius: 2px;
+		border: 1px solid #e5e5e5;  
+	}
+
+	#exampleFormControlTextarea1 {
+		height: 82px;
+	}
+
+	.input__wrap {
+		max-width: 32.5%;
+	}
+
+	.wrap__row {
+		margin-top: 22px;
+	}
+
+}
+@media (min-width: 100px) {
+	.mw-30 {
+	  max-width: 100%;
+	  margin-bottom: 30px;
+	}
+  }

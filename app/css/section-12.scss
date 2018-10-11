@@ -1,0 +1,34 @@
+.section-12 {
+	overflow: hidden;
+	
+	.overlay {
+		top: $null;
+		left: $null;
+		right: $null;
+		bottom: $null;
+		background: rgba(0, 0, 0, 0.9);
+		-webkit-transition:	$transition;
+		-moz-transition: $transition;
+		-ms-transition: $transition;
+		-o-transition: $transition;
+		transition: $transition;
+	}
+
+	&:hover .overlay{
+		opacity: 0;
+    	transform: translateY(100%);
+	}
+
+	h3 {
+		color:#fff;
+		margin-top: 30px;
+	}
+
+	.arrow-down .fa-map-marker {
+		-webkit-transform: $r-135deg;
+		-moz-transform: $r-135deg;
+		-ms-transform: $r-135deg;
+		-o-transform: $r-135deg;
+		transform: $r-135deg;
+	}
+}

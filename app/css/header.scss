@@ -1,0 +1,64 @@
+#header {
+	position: $posAbsol;
+	width: $maxWidth;
+	top:0;
+	left: 0;
+	z-index: 1;
+	padding: 30px 20px;
+
+	.nav-item {
+		margin-left: 30px;
+	}
+
+	.nav-link {
+		font-size: 11px;
+		color:$colorWh;
+		font-family: $ff_opensans;
+	}
+
+	.navbar-toggler {
+		outline: none;
+		width: 30px;
+		padding: 0;
+	}
+}
+
+	.navbar-light .navbar-toggler {
+		border: none;
+	}
+
+#header {
+
+	.navbar-toggler-icon {
+		background: white;
+		height: 2px;
+		position: relative;
+	}
+	
+	.navbar-toggler-icon:before,
+	.navbar-toggler-icon:after {
+		content: '';
+		background: $colorWh;
+		height: 2px;
+		position: $posAbsol;
+		width: $maxWidth;
+		left: 0;
+		}
+	
+	.navbar-toggler-icon:before {
+			top: -8px;
+		}
+	
+	.navbar-toggler-icon:after{
+			bottom: -8px;
+		}
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $ff_dosis;
+}
+
+p,span,li,a {
+	font-family: $ff_opensans;
+}

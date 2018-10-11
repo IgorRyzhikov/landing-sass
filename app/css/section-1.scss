@@ -1,0 +1,39 @@
+
+.section-1 {
+	height: 100vh;
+	background-image: url(../images/section1bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	
+	h1 {
+		font-size: 30px;
+		letter-spacing: 50px;
+		text-indent: 50px;
+		color: #fefefe;
+		margin-bottom: 100px;
+	}
+
+	p {
+		font-size: 19px;
+		color: $colorFE;
+	}
+}
+
+.arrow-down {
+	width: 40px;
+	height: 40px;
+	background-color: $colorFE;
+	border-radius: 5px;
+	bottom: 30px;
+	transform: $r135deg;
+    cursor: pointer;
+}
+
+.arrow-down .fa-chevron-down {
+    -webkit-transform: $r135deg translateX(7px);
+    -moz-transform: $r-135deg;
+    -ms-transform: $r-135deg;
+    -o-transform: $r-135deg;
+    transform: $r-135deg translateY(7px);
+}

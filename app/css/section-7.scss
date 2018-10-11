@@ -1,0 +1,33 @@
+.section-7 {
+		padding: $padding-140;
+		
+		h3 {
+			margin-bottom: 90px;
+		}
+
+		h4 {
+			margin: 40px 0;
+			font-size: 14px;
+			letter-spacing: 5px;
+		}
+
+		&[class|="icon"] {
+			font-size: 48px;
+		}
+
+		p {
+			color: #777777;
+			font-size: 14px;
+			line-height: 27px;
+		}
+
+		.choose-us div:nth-child(-n+3) {
+			margin-bottom: 190px;
+		}
+}
+
+@media screen and (max-width: 991px) {
+    .section-7 .choose-us div:nth-child(-n+3) {
+        margin: 0;
+    }
+}

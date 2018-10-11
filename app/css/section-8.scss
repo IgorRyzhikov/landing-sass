@@ -1,0 +1,106 @@
+
+.section-8 {
+
+	.carousel-caption {
+		right: auto;
+		left: auto;
+		margin: auto;
+		bottom: auto;
+		width: 60%;
+	}
+
+	#carouselExampleIndicators {
+		background: #020202;
+		padding: $padding-140;
+	}
+
+	.carousel-indicators {
+		bottom: 30px;
+	}
+
+	.carousel-indicators li {
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: #fff;
+		margin: 0 5px;
+	}
+
+	.carousel-indicators li.active {
+		background: transparent;
+		border: 1px solid $Colorffffff;
+	}
+
+	&[class|="icon"] {
+		font-size: 32px;
+	}
+
+	h3 {
+		color: #fff;
+		text-transform: uppercase;
+		margin: 25px 0 50px;
+	}
+
+	footer {
+		color: #757575;
+		text-transform: uppercase;
+		font-size: 11px;
+	}
+
+
+	p {
+		margin-bottom: 30px;
+	  }
+
+	.carousel-control-next {
+		border: 30px solid transparent;
+		border-right: 50px solid $Colorffffff;
+		bottom: auto;
+		top: 50%;
+		-webkit-transform: $transform;
+		-moz-transform: $transform;
+		-ms-transform: $transform;
+		-o-transform: $transform;
+		transform: $transform;
+		opacity: 1;
+	   }
+
+	&[class|="carousel-control"] {
+		border: 30px solid transparent;
+		bottom: auto;
+		top: 50%;
+		-webkit-transform: $transform;
+		-moz-transform: $transform;
+		-ms-transform: $transform;
+		-o-transform: $transform;
+		transform: $transform;
+		opacity: 1;
+	  }
+
+	  .carousel-control-prev {
+		border: 30px solid transparent;
+		border-left: 50px solid $Colorffffff;
+		bottom: auto;
+		top: 50%;
+		-webkit-transform: $transform;
+		-moz-transform: $transform;
+		-ms-transform: $transform;
+		-o-transform: $transform;
+		transform: $transform;
+		opacity: 1;
+	}
+
+	.fa {
+		font-size: 20px;
+		position: $posAbsol;
+		color: #000;
+	}
+
+	.fa-chevron-right {
+		right: -40px;
+	}
+
+	.fa-chevron-left {
+		left: -40px;
+	}
+}

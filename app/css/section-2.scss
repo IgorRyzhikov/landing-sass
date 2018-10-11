@@ -1,0 +1,135 @@
+
+.section-2 {
+	padding: 145px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.h3 {
+	font-size: 18px;
+	letter-spacing: $LetterSP-10;
+	color: #111111;
+}
+
+.m-bottom-100 {
+	margin-bottom: $mb-100;
+}
+
+.m-bottom-80 {
+	margin-bottom: 80px;
+}
+
+
+.articles {
+
+	.col-lg-4>p {
+    font-size: 15px;
+	line-height: 25px;
+	}
+	
+	.blockquote p {
+		font-size: 24px;
+		line-height: 35px;
+		margin-bottom: 30px;
+	}
+	
+}
+
+.section-2 {
+
+	.cv__portfolio {
+		margin-bottom: 30px;
+		position: relative;
+		cursor: pointer;
+	}
+}
+
+.cv__skills {
+	background: #131313;
+	position: absolute;
+	top: 0;
+	width: $maxWidth;
+	height:	$Height-100;
+	left: 0;
+	padding: 38px;
+	-webkit-transform: $transfScale0;
+	-moz-transform: $transfScale0;
+	-ms-transform: $transfScale0;
+	-o-transform: $transfScale0;
+	transform: $transfScale0;
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+	
+.section-2 {
+
+	.cv__portfolio:hover .cv__skills {
+		-webkit-transform: $transfScale1;
+		-moz-transform: $transfScale1;
+		-ms-transform: $transfScale1;
+		-o-transform: $transfScale1;
+		transform: $transfScale1;
+	}
+
+
+	.cv__id {
+		font-family: $ff_dosis;
+		font-size: 15px;
+		margin-bottom: 8px;
+		letter-spacing: $LetterSP-10;
+	}
+}
+
+p.skills__descr {
+    font-family: $ff_opensans;
+    color: #a7a7a7;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.section-2 {
+
+	.cv__prof {
+		font-family: $ff_dosis;
+		font-size: 12px;
+		letter-spacing: 8px;
+	}
+}
+
+.section-2__cv {
+
+	h5 {
+		font-family: $ff_dosis;
+		color: #fff;
+		font-size: 18px;
+		margin-bottom: 24px;
+		letter-spacing: $LetterSP-10;
+	}
+
+	h6 {
+		font-family: $ff_opensans;
+		color: #c6c6c6;
+		font-size: 11px;
+		letter-spacing: 3px;
+	}
+}
+
+.bg-progressbar {
+    background: #cdcdcd;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.cv__portfolio .progress {
+    height: 13px;
+    background-color: #363636;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: #c6c6c6;
+}

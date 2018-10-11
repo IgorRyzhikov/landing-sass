@@ -1,0 +1,56 @@
+.section-5-portfolio {
+	padding: 140px 0 0 0;
+	
+	h3 {
+		letter-spacing: 13px;
+	}
+
+	p {
+		margin: 80px 0 85px;
+		max-width: 752px;
+		color: #777777;
+		line-height: 27px;
+		font-size: 15px;
+	}
+
+	.nav-item h5 {
+		font-size: 13px;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+		margin-bottom: 50px;
+	}
+
+	.nav-link {
+		color: #979797;
+		margin: 0 6px;
+	}
+
+	.nav-link.active {
+		color: $Color111111;
+	}
+
+	.portfolio-img {
+		position: $posRel;
+		cursor: pointer;
+	}
+
+	.img-hover {
+		position: $posAbsol;
+		top: 0;
+		width: $maxWidth;
+		height: $Height-100;
+		left: 0;
+		display: none;
+	}
+
+	.portfolio-img:hover .img-hover {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 992px) {
+    .section-3-services .nav-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
